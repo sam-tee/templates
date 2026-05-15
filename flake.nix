@@ -1,5 +1,5 @@
 {
-  outputs = {
+  outputs = _: {
     templates = let
       mkTemplate = name: description: {
         inherit description;
